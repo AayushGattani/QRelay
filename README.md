@@ -5,7 +5,7 @@ Readme · MD
 
 QRBeam is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
 
-**Live Demo:** https://qrbeam.netlify.app/
+**Live Demo:** https://qrbeamx.netlify.app/
 
 ### Features at a Glance
 - ⚡ **Instant Sharing** - Share files instantly with a QR code
