@@ -3,7 +3,7 @@ import API from '../api';
 import styles from './UploadPage.module.css';
 
 const MAX_TOTAL_SIZE = 10 * 1024 * 1024;
-const SESSION_KEY = 'qrelay_active_sessions';
+const SESSION_KEY = 'qrbeam_active_sessions';
 
 function formatBytes(bytes) {
   if (!bytes) return '0 B';

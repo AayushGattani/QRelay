@@ -1,12 +1,12 @@
 Readme · MD
-# QRelay ⚡
- 
+# QRBoom ⚡
+
 > Drag. Drop. Scan. Done.
- 
-QRelay is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
- 
+
+QRBoom is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
+
 <img width="1470" height="878" alt="image" src="https://github.com/user-attachments/assets/cf4b2e0d-f239-4d4e-bb54-a15dbe3c0048" />
-live link - https://qrelay.netlify.app/
+live link - https://qrboom.netlify.app/
  
 ---
  
@@ -20,9 +20,7 @@ Working on a college computer and needed the file on your phone?
 - Random apps? They all want a login or an install.
 Too much effort for a 15kb file.
  
-QRelay removes all of it.
- 
----
+QRBoom removes all of it.
  
 ## Features
  
@@ -75,9 +73,9 @@ No data is stored beyond the 10-minute window. No accounts. No tracking.
 ---
  
 ## Project Structure
- 
+
 ```
-qrelay/
+qrboom/
 ├── frontend/                  # React app
 └── backend/
     ├── server.js              # Entry point — boots Azure + starts server
@@ -114,24 +112,24 @@ qrelay/
  
 ```bash
 # Clone the repo
-git clone https://github.com/ankit23-exe/qrelay.git
-cd qrelay/backend
- 
+git clone https://github.com/ankit23-exe/qrboom.git
+cd qrboom/backend
+
 # Install dependencies
 npm install
- 
+
 # Set up environment variables
 cp .env.example .env
 # Fill in your Azure credentials in .env
- 
+
 # Start the server
 npm run dev
 ```
- 
+
 ### Frontend Setup
- 
+
 ```bash
-cd qrelay/frontend
+cd qrboom/frontend
 npm install
 npm run dev
 ```

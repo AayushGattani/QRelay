@@ -8,13 +8,13 @@ function Logo() {
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
                 <defs>
                     <linearGradient id="zg" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stopColor="#7c3aed" />
-                        <stop offset="100%" stopColor="#a855f7" />
+                        <stop offset="0%" stopColor="#FF7043" />
+                        <stop offset="100%" stopColor="#FF4F00" />
                     </linearGradient>
                 </defs>
                 <path d="M13 2L4.5 13H12L11 22L19.5 11H12L13 2Z" fill="url(#zg)" strokeLinejoin="round" />
             </svg>
-            <span className={styles.logoText}>QRelay</span>
+            <span className={styles.logoText}>QRbeam</span>
         </div>
     );
 }
