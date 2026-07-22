@@ -1,12 +1,18 @@
 Readme · MD
-# QRBoom ⚡
+# QRBeam ⚡
 
 > Drag. Drop. Scan. Done.
 
-QRBoom is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
+QRBeam is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
 
-<img width="1470" height="878" alt="image" src="https://github.com/user-attachments/assets/cf4b2e0d-f239-4d4e-bb54-a15dbe3c0048" />
-live link - https://qrboom.netlify.app/
+**Live Demo:** https://qrbeam.netlify.app/
+
+### Features at a Glance
+- ⚡ **Instant Sharing** - Share files instantly with a QR code
+- 🔐 **No Login Required** - Zero friction, zero accounts
+- 📱 **Mobile Friendly** - Scan QR code on your phone
+- ⏰ **Auto Delete** - Files self-destruct after 10 minutes
+- 🎯 **Simple & Fast** - Upload, share, download - done!
  
 ---
  
@@ -20,9 +26,7 @@ Working on a college computer and needed the file on your phone?
 - Random apps? They all want a login or an install.
 Too much effort for a 15kb file.
  
-QRBoom removes all of it.
- 
-## Features
+QRBeam removes all of it.
  
 - **QR Code Transfer** — upload a file, scan the QR on your phone, done
 - **6-Digit Code** — alternative if you can't scan (just type the code)
@@ -75,7 +79,7 @@ No data is stored beyond the 10-minute window. No accounts. No tracking.
 ## Project Structure
 
 ```
-qrboom/
+qrbeam/
 ├── frontend/                  # React app
 └── backend/
     ├── server.js              # Entry point — boots Azure + starts server
@@ -112,8 +116,8 @@ qrboom/
  
 ```bash
 # Clone the repo
-git clone https://github.com/ankit23-exe/qrboom.git
-cd qrboom/backend
+git clone https://github.com/ankit23-exe/qrbeam.git
+cd qrbeam/backend
 
 # Install dependencies
 npm install
@@ -129,7 +133,7 @@ npm run dev
 ### Frontend Setup
 
 ```bash
-cd qrboom/frontend
+cd qrbeam/frontend
 npm install
 npm run dev
 ```

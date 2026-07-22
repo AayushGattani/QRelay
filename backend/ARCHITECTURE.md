@@ -1,6 +1,6 @@
-# QRBoom Backend - Modular Architecture
+# QRBeam Backend - Modular Architecture
 
-This document describes the modular structure of the QRBoom backend application.
+This document describes the modular structure of the QRBeam backend application.
 
 ## Folder Structure
 
