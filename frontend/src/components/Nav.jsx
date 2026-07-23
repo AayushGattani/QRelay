@@ -14,7 +14,7 @@ function Logo() {
                 </defs>
                 <path d="M13 2L4.5 13H12L11 22L19.5 11H12L13 2Z" fill="url(#zg)" strokeLinejoin="round" />
             </svg>
-            <span className={styles.logoText}>QRbeam</span>
+<span className={styles.logoText}>QRBeam</span>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 {
-  "name": "zipzap-backend",
+  "name": "qrbeam-backend",
   "version": "1.0.0",
   "description": "Temporary file sharing backend",
   "main": "server.js",

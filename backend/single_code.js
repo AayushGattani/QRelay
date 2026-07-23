@@ -233,5 +233,5 @@ app.get('/health', (_, res) => res.json({ status: 'ok', sessions: fileStore.size
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`ZipZap backend running on http://localhost:${PORT}`);
+  console.log(`QRBeam backend running on http://localhost:${PORT}`);
 });
