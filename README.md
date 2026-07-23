@@ -4,6 +4,7 @@ Readme · MD
 > Drag. Drop. Scan. Done.
 
 QRBeam is a zero-friction file sharing tool built for the moments when you just need to move a file — fast. No login, no app, no pairing. Upload a file, get a QR code, scan it on your phone, and it's yours. The file deletes itself in 10 minutes.
+
 <img width="1536" height="812" alt="image" src="https://github.com/user-attachments/assets/1b1a25e7-8f9e-445a-9f08-588e600353fc" />
 
 
